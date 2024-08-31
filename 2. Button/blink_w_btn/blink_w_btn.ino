@@ -17,7 +17,7 @@ void loop(){
     //bloco de código feito para controlar para que a mensagem não precise ser 
     //escrita várias vezes no Serial
     if(count == 0){
-      Serial.println("LED está ligado"); 
+      Serial.println("LED esta ligado"); 
     }
     count = 1;
     delay(100);//Intervalo de 100 milissegundos 
@@ -27,7 +27,7 @@ void loop(){
     //bloco de código feito para controlar para que a mensagem não precise ser 
     //escrita várias vezes no Serial
     if(count == 1){
-      Serial.println("LED está desligado"); 
+      Serial.println("LED esta desligado"); 
     }
     count = 0;
   } 
