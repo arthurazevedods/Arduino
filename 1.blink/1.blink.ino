@@ -1,11 +1,18 @@
+int tempo = 100;
 
-int ledPin = 9;//Atribui o valor 9 a variável inteira ledPin, que irá representar o pino digital 9
 void setup() {
-  pinMode(ledPin, OUTPUT);//Define ledPin (pino 9) como saída
+  pinMode(11, OUTPUT);
+  pinMode(2, OUTPUT);
 }
 void loop() {
-  digitalWrite(ledPin, HIGH);//Coloca ledPin em nível alto (5V)
-  delay(2000);//Espera 2000 milissegundos (2 segundos)
-  digitalWrite(ledPin, LOW);//Coloca ledPin em nível baixo (0V)
-  delay(2000);//Espera 2000 milissegundos (2 segundos)
+  digitalWrite(11, HIGH);
+  digitalWrite(2, LOW);
+  delay(tempo);
+
+  digitalWrite(11, LOW);
+  digitalWrite(2, HIGH);
+  delay(tempo);
+
+  tempo = tempo + 50;
+
 }
