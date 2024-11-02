@@ -1,4 +1,4 @@
-# Components
+# Componentes
 
 1 x Placa Arduino Uno R3 + Cabo USB para Arduino
 1 x Resistor de 220Ω
